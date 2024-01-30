@@ -89,6 +89,8 @@
 			dependencies = (
 			);
 			name = Dance_Guess;
+			packageProductDependencies = (
+			);
 			productName = Dance_Guess;
 			productReference = EEEF084A2B68F8AB00E41F2A /* Dance_Guess.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +119,9 @@
 				Base,
 			);
 			mainGroup = EEEF08412B68F8AB00E41F2A;
+			packageReferences = (
+				EEEF08602B69253600E41F2A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = EEEF084B2B68F8AB00E41F2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -352,6 +357,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EEEF08602B69253600E41F2A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		EEEF08582B68F8AD00E41F2A /* Dance_Guess.xcdatamodeld */ = {
